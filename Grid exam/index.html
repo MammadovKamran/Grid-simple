@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- !main-mobile css -->
+    <link rel="stylesheet" href="./css/mainMobile.css" />
+    <!-- !tablet css -->
+    <link rel="stylesheet" media="(min-width: 600px)" href="./css/tablet.css" />
+    <!-- !desktop css -->
+    <link
+      rel="stylesheet"
+      media="(min-width: 900px)"
+      href="./css/desktop.css"
+    />
+    <!-- !icon Fontawesome css -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Form-advance</title>
+  </head>
+  <body>
+    <!--!Container start-->
+    <div class="container">
+      <!--!Header-Gentella-->
+      <header>
+        <h3>
+          <a href="https://github.com/puikinsh/gentelella"
+            >Gentella Form Elements</a
+          >
+        </h3>
+      </header>
+      <!--!Main start-->
+      <main>
+        <div class="form-design box">
+          <div class="clearfix">
+            <h2>Form Design <small>different form elements</small></h2>
+            <ul>
+              <li>
+                <i class="fas fa-chevron-up"></i>
+              </li>
+              <li>
+                <i class="fas fa-wrench"></i>
+              </li>
+              <li>
+                <i class="fas fa-caret-down"></i>
+              </li>
+              <li>
+                <i class="fas fa-times"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="design-main">
+            <div class="design-inputs left">
+              <input type="text" name="" id="" placeholder="First Name" />
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="design-inputs right">
+              <input type="text" name="" id="" placeholder="Last Name" />
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="design-inputs left">
+              <input type="text" name="" id="" placeholder="Email" />
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="design-inputs right">
+              <input type="text" name="" id="" placeholder="Phone" />
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="inputs-header grid-1column">
+              <label for="">Default Input</label>
+              <label for="">Disabled Input</label>
+              <label for="">Read-Only Input</label>
+              <label for="">Date Of Birth *</label>
+            </div>
+            <div class="design-inputs grid-3column">
+              <input type="text" placeholder="Default Input" />
+              <input
+                style="background-color: #e9ecef"
+                type="text"
+                placeholder="Disabled Input"
+              />
+              <input
+                style="background-color: #e9ecef"
+                type="text"
+                placeholder="Read-Only Input"
+              />
+              <input type="text" />
+            </div>
+            <button disabled="disabled" class="cancel btn">Cancel</button>
+            <button type="submit" class="submit btn">Submit</button>
+          </div>
+        </div>
+        <div class="form-basic box">
+          <div class="clearfix">
+            <h2>Form Basic Elements <small>different form elements</small></h2>
+            <ul>
+              <li>
+                <i class="fas fa-chevron-up"></i>
+              </li>
+              <li>
+                <i class="fas fa-wrench"></i>
+              </li>
+              <li>
+                <i class="fas fa-caret-down"></i>
+              </li>
+              <li>
+                <i class="fas fa-times"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="form-basic-main">
+            <div class="form-group">
+              <label class="control-label">Default Input</label>
+              <input type="text" placeholder="Default Input" />
+            </div>
+            <div class="form-group">
+              <label class="control-label">Disabled Input</label>
+              <input
+                style="background-color: #e9ecef"
+                type="text"
+                placeholder="Disabled Input"
+              />
+            </div>
+            <div class="form-group">
+              <label class="control-label">Read-Only Input</label>
+              <input
+                style="background-color: #e9ecef"
+                type="text"
+                placeholder="Read-Only Input"
+              />
+            </div>
+            <div class="form-group">
+              <label class="control-label">Date Of Birth *</label>
+              <textarea
+                placeholder=" rows='3'"
+                name=""
+                id=""
+                cols="30"
+                rows="5"
+              ></textarea>
+            </div>
+            <div class="form-group">
+              <label class="control-label">Password</label>
+              <input type="text" name="" id="" placeholder="**************" />
+            </div>
+            <div class="form-group">
+              <label class="control-label">AutoComplete</label>
+              <input type="text" name="" id="" />
+            </div>
+            <div class="form-group">
+              <label class="control-label">Select</label>
+
+              <select class="form-control">
+                <option>Choose option</option>
+                <option>Option one</option>
+                <option>Option two</option>
+                <option>Option three</option>
+                <option>Option four</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="control-label">Select Custom</label>
+
+              <select class="form-control" tabindex="-1">
+                <option></option>
+                <option value="AK">Alaska</option>
+                <option value="HI">Hawaii</option>
+                <option value="CA">California</option>
+                <option value="NV">Nevada</option>
+                <option value="OR">Oregon</option>
+                <option value="WA">Washington</option>
+                <option value="AZ">Arizona</option>
+                <option value="CO">Colorado</option>
+                <option value="ID">Idaho</option>
+                <option value="MT">Montana</option>
+                <option value="NE">Nebraska</option>
+                <option value="NM">New Mexico</option>
+                <option value="ND">North Dakota</option>
+                <option value="UT">Utah</option>
+                <option value="WY">Wyoming</option>
+                <option value="AR">Arkansas</option>
+                <option value="IL">Illinois</option>
+                <option value="IA">Iowa</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="MN">Minnesota</option>
+                <option value="MS">Mississippi</option>
+                <option value="MO">Missouri</option>
+                <option value="OK">Oklahoma</option>
+                <option value="SD">South Dakota</option>
+                <option value="TX">Texas</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="control-label">Select Grouped</label>
+
+              <select class="select2_group form-control">
+                <optgroup label="Alaskan/Hawaiian Time Zone">
+                  <option value="AK">Alaska</option>
+                  <option value="HI">Hawaii</option>
+                </optgroup>
+                <optgroup label="Pacific Time Zone">
+                  <option value="CA">California</option>
+                  <option value="NV">Nevada</option>
+                  <option value="OR">Oregon</option>
+                  <option value="WA">Washington</option>
+                </optgroup>
+                <optgroup label="Mountain Time Zone">
+                  <option value="AZ">Arizona</option>
+                  <option value="CO">Colorado</option>
+                  <option value="ID">Idaho</option>
+                  <option value="MT">Montana</option>
+                  <option value="NE">Nebraska</option>
+                  <option value="NM">New Mexico</option>
+                  <option value="ND">North Dakota</option>
+                  <option value="UT">Utah</option>
+                  <option value="WY">Wyoming</option>
+                </optgroup>
+                <optgroup label="Central Time Zone">
+                  <option value="AL">Alabama</option>
+                  <option value="AR">Arkansas</option>
+                  <option value="IL">Illinois</option>
+                  <option value="IA">Iowa</option>
+                  <option value="KS">Kansas</option>
+                  <option value="KY">Kentucky</option>
+                  <option value="LA">Louisiana</option>
+                  <option value="MN">Minnesota</option>
+                  <option value="MS">Mississippi</option>
+                  <option value="MO">Missouri</option>
+                  <option value="OK">Oklahoma</option>
+                  <option value="SD">South Dakota</option>
+                  <option value="TX">Texas</option>
+                  <option value="TN">Tennessee</option>
+                  <option value="WI">Wisconsin</option>
+                </optgroup>
+                <optgroup label="Eastern Time Zone">
+                  <option value="CT">Connecticut</option>
+                  <option value="DE">Delaware</option>
+                  <option value="FL">Florida</option>
+                  <option value="GA">Georgia</option>
+                  <option value="IN">Indiana</option>
+                  <option value="ME">Maine</option>
+                  <option value="MD">Maryland</option>
+                  <option value="MA">Massachusetts</option>
+                  <option value="MI">Michigan</option>
+                  <option value="NH">New Hampshire</option>
+                  <option value="NJ">New Jersey</option>
+                  <option value="NY">New York</option>
+                  <option value="NC">North Carolina</option>
+                  <option value="OH">Ohio</option>
+                  <option value="PA">Pennsylvania</option>
+                  <option value="RI">Rhode Island</option>
+                  <option value="SC">South Carolina</option>
+                  <option value="VT">Vermont</option>
+                  <option value="VA">Virginia</option>
+                  <option value="WV">West Virginia</option>
+                </optgroup>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="control-label">Select Multiple</label>
+              <select class="select2_multiple form-control" multiple="multiple">
+                <option>Choose option</option>
+                <option>Option one</option>
+                <option>Option two</option>
+                <option>Option three</option>
+                <option>Option four</option>
+                <option>Option five</option>
+                <option>Option six</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="control-label">Input Tags</label>
+              <input
+                id="tags_1"
+                type="text"
+                class="tags form-control"
+                value="social, adverts, sales"
+              />
+            </div>
+
+            <div class="form-group checkbox">
+              <label class="control-label"
+                >Checkboxes and radios
+                <br />
+                <small class="text-navy">Normal Bootstrap elements</small>
+              </label>
+
+              <div>
+                <div>
+                  <label>
+                    <input type="checkbox" /> Option one. select more than one
+                    options
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" /> Option two. select more than one
+                    options
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input checked type="radio" /> Option one. only select one
+                    option
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" /> Option two. only select one option
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="control-label checkbox"
+                >Checkboxes and radios
+                <br />
+                <small class="text-navy">Normal Bootstrap elements</small>
+              </label>
+
+              <div class="">
+                <div class="checkbox">
+                  <label> <input type="checkbox" checked /> Checked </label>
+                </div>
+                <div class="checkbox">
+                  <label> <input type="checkbox" /> Unchecked </label>
+                </div>
+                <div class="checkbox">
+                  <label> <input type="checkbox" /> Disabled </label>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" disabled checked /> Disabled &amp;
+                    checked
+                  </label>
+                </div>
+                <div class="radio">
+                  <label> <input type="radio" checked /> Checked </label>
+                </div>
+                <div class="radio">
+                  <label> <input type="radio" /> Unchecked </label>
+                </div>
+                <div class="radio">
+                  <label> <input type="radio" /> Disabled </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" disabled checked /> Disabled &amp;
+                    Checked
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="control-label">Switch</label>
+              <div>
+                <div>
+                  <label> <input type="checkbox" checked /> Checked </label>
+                </div>
+                <div>
+                  <label> <input type="checkbox" /> Unchecked </label>
+                </div>
+                <div>
+                  <label> <input type="checkbox" /> Disabled </label>
+                </div>
+                <div>
+                  <label>
+                    <input type="checkbox" disabled checked /> Disabled Checked
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="form-basicbuttons">
+              <button disabled="disabled" class="cancel btn">Cancel</button>
+              <button type="submit" class="submit btn">Submit</button>
+            </div>
+          </div>
+        </div>
+        <div class="star-rating box">
+          <div class="clearfix">
+            <h2>Star Rating</h2>
+            <ul>
+              <li>
+                <i class="fas fa-chevron-up"></i>
+              </li>
+              <li>
+                <i class="fas fa-wrench"></i>
+              </li>
+              <li>
+                <i class="fas fa-caret-down"></i>
+              </li>
+              <li>
+                <i class="fas fa-times"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="star-main">
+            <h4>Star Ratings<small> Hover and click on a star</small></h4>
+            <p>
+              You gave a rating of <span class="stars-count">0</span> star(s)
+            </p>
+            <p>
+              Also you can give a default rating by adding attribute data-rating
+            </p>
+            <p>You gave a rating of 4 star(s)</p>
+          </div>
+        </div>
+        <div class="registration box">
+          <div class="clearfix">
+            <h2>Registration Form <small>Click to validate</small></h2>
+            <ul>
+              <li>
+                <i class="fas fa-chevron-up"></i>
+              </li>
+              <li>
+                <i class="fas fa-wrench"></i>
+              </li>
+              <li>
+                <i class="fas fa-caret-down"></i>
+              </li>
+              <li>
+                <i class="fas fa-times"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="registration-main d-flex direction-column">
+            <label for=""> Full Name * :</label>
+            <input type="text" name="" style="padding: 6px 12px" />
+            <label for="">Email * :</label>
+            <input type="text" name="" id="" style="padding: 6px 12px" />
+            <label for="">Gender *:</label>
+            <p style="margin-bottom: 16px">
+              M:
+              <input type="radio" name="" id="" />
+              F:
+              <input type="radio" name="" id="" />
+            </p>
+            <label for="">Hobbies 2(minimum):</label>
+            <div>
+              <span>
+                <input
+                  type="checkbox"
+                  name="hobbies"
+                  id="hobby1"
+                  class="flat"
+                />
+                Skiing
+              </span>
+              <br />
+              <span>
+                <input
+                  type="checkbox"
+                  name="hobbies"
+                  id="hobby2"
+                  class="flat"
+                />
+                Running
+              </span>
+              <br />
+              <span
+                ><input
+                  type="checkbox"
+                  name="hobbies"
+                  id="hobby3"
+                  class="flat"
+                />
+                Eating
+              </span>
+              <br />
+              <span>
+                <input
+                  type="checkbox"
+                  name="hobbies"
+                  id="hobby4"
+                  class="flat"
+                />
+                Sleeping
+              </span>
+            </div>
+            <br />
+            <label for="heard">Heard us by *:</label>
+            <select id="heard" class="form-control" style="padding: 6px 12px">
+              <option value="">Choose..</option>
+              <option value="press">Press</option>
+              <option value="net">Internet</option>
+              <option value="mouth">Word of mouth</option>
+            </select>
+            <label for="message">Message (20 chars min, 100 max) :</label>
+            <textarea
+              id="message"
+              class="form-control"
+              name="message"
+              style="padding: 6px 12px"
+            ></textarea>
+            <br />
+            <button class="btn btn-validate">Validate form</button>
+          </div>
+        </div>
+        <div class="form-buttons box">
+          <div class="clearfix">
+            <h2>Form Buttons <small>Sessions</small></h2>
+            <ul>
+              <li>
+                <i class="fas fa-chevron-up"></i>
+              </li>
+              <li>
+                <i class="fas fa-wrench"></i>
+              </li>
+              <li>
+                <i class="fas fa-caret-down"></i>
+              </li>
+              <li>
+                <i class="fas fa-times"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="form-buttons-main">
+            <label>Button addons</label>
+            <div>
+              <div>
+                <button class="btn go-btn">Go!</button>
+                <input type="text" name="" id="" />
+              </div>
+              <div>
+                <input type="text" name="" id="" />
+                <button class="btn go-btn">Go!</button>
+              </div>
+            </div>
+            <label>Button addons</label>
+            <div>
+              <div>
+                <input type="text" name="" id="" />
+                <button class="btn white-btn">
+                  Action <i class="fas fa-sort-down"></i>
+                </button>
+              </div>
+              <div>
+                <input type="text" name="" id="" />
+                <button class="btn go-btn">Go!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </main>
+    </div>
+  </body>
+</html>

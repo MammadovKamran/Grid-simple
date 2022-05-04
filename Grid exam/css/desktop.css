@@ -1,0 +1,33 @@
+main {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+}
+.clearfix > h2 > small {
+  display: flex;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-top: 2px;
+}
+.clearfix>h2{
+  display: flex;
+}
+.clearfix{
+  display: flex;
+  justify-content: space-between;
+}
+.form-design {   grid-column:1/2; 
+}
+.form-basic {   grid-column:2/3;
+}
+.star-rating {   grid-column:1/2;
+}
+.registration{   grid-column:1/2;
+}
+.form-buttons {  grid-column:1/2;
+}
+header > h3 > a {
+    font-size: 28px;
+  }
+  header>h3{
+    text-align: start;
+  }
